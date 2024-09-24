@@ -37,3 +37,16 @@ if (plantCountWeek3 > (0.8 * maxPlantCount)) {
 }
 
 
+//Part 2
+weeks= 10;
+let startPlant=100;
+plantGrowthAfterTenWeeks = startPlant* Math.pow(2,10);
+
+newArea= plantGrowthAfterTenWeeks* 0.8;
+nRadius= (newArea/PI);
+console.log("newArea  % PI)")
+for (let week=10; week<= weeks; week ++){
+        startPlant = Math.pow(2,10);
+        console.log("week")
+    }
+   
