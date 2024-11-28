@@ -1,10 +1,10 @@
 const PI = 3.1415;
-const radius = 5; // in meters
-const area = PI * radius * radius; // area in square meters
-const minSpacePerPlant = 0.8; // area required per plant in square meters
-const maxPlantCount = (area / minSpacePerPlant); // maximum number of plants
+const radius = 5; 
+const area = PI * radius * radius;
+const minSpacePerPlant = 0.8; 
+const maxPlantCount = (area / minSpacePerPlant); 
 
-const initialPlants = 20; // starting number of plants
+const initialPlants = 20; 
 
 // Calculate plant counts for each week
 const plantCountWeek1=40
